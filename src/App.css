@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+icon-button {
+  font-size: 1.25rem; /* Đảm bảo kích thước của cả hai biểu tượng */
+  padding: 5px; /* Khoảng cách giữa biểu tượng và viền */
+  display: flex;
+  align-items: center; /* Đảm bảo biểu tượng căn giữa theo chiều dọc */
+  justify-content: center; /* Căn giữa biểu tượng */
+}
+
+.ms-2 {
+  margin-left: 10px; /* Cách kính lúp với giỏ hàng 10px */
+}
+
